@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    
+    <link rel="shortcut icon" href="assets/img/fav-icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/mobile.css" media="screen and (max-width: 1079px)">
+    <link rel="stylesheet" href="assets/css/pc.css" media="screen and (min-width: 1080px)">
+
+</head>
+<body>
+    <main>
+    <!-- Luzes -->
+    <section class="pokemon__feedback">
+        <div class="pokemon__lightOne">
+        </div>
+        <div class="pokemon__lightTwo">
+        </div>
+        <div class="pokemon__lightThree">
+        </div>
+    </section>
+    <!-- Tela -->
+     <section class="pokemon__screen">
+        <img  id="elemento1" class="pokemon__image" alt="">
+        <div id="elemento2" class="pokemon__data">
+        </div>
+    </section> 
+    <!-- Componentes -->
+    <section class="pokemon__components">
+        <div class="pokemon__buttonData">
+            <button></button>
+        </div>
+
+        <div class="pokemon__select">
+            <audio  id="audio" src="assets/sound/PokedexEffect.mp3"></audio>
+            <button class="pokemon__selectOne btnOne"></button>
+            <button class="pokemon__selectTwo btnTwo"></button>
+            <button class="pokemon__selectThree btnThree"> </button>
+            <button class="pokemon__selectFour btnFour"></button>
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+   
+    </main>
+</body>
+</html>
