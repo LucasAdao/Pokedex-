@@ -46,6 +46,7 @@ main{
     object-fit:fill;
     z-index: 0;
     display: flex;
+    padding: 2%;
 }
 .pokemon__data {
     
